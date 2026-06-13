@@ -1,40 +1,29 @@
-# Installation & Usage
+# Urban Pulse AI
 
-## Requirements
+## Overview
 
-Make sure Python 3.10+ is installed.
+Urban Pulse AI is an intelligent smart city monitoring platform built for **SmartScape Hackathon 2026**.
 
-Install all dependencies:
+The system uses **Machine Learning** and **Natural Language Processing (NLP)** to analyze citizen complaints, classify urban issues, predict urgency levels, calculate priority scores, and recommend the appropriate municipal department.
 
-```bash
-pip install -r requirements.txt
-```
+Our mission is to improve urban infrastructure management and optimize city resource allocation.
 
-## Running the Project
+---
 
-Start the application by running:
+## Features
 
-```bash
-python main.py
-```
+* Complaint text analysis using NLP
+* Issue category classification
+* Urgency level prediction
+* Priority score calculation
+* Municipal department recommendation
+* Analytics dashboard
+* Complaint distribution visualization
+* Smart city decision support system
 
-If using Streamlit directly:
+---
 
-```bash
-streamlit run app.py
-```
-
-## Project Workflow
-
-1. User submits a city complaint through the interface
-2. NLP pipeline preprocesses the text
-3. Machine Learning model classifies complaint category
-4. Urgency prediction model evaluates severity
-5. System assigns priority score
-6. Dashboard updates analytics and visualizations
-7. System recommends the responsible municipal department
-
-## Technologies Used
+## Technology Stack
 
 * Python
 * Scikit-learn
@@ -45,4 +34,74 @@ streamlit run app.py
 * Machine Learning
 * Natural Language Processing (NLP)
 
-Built for SmartScape Hackathon 2026.
+---
+
+## Installation
+
+Clone repository:
+
+```bash
+git clone <repository-link>
+cd urban-pulse-ai
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Running the Project
+
+Start the application:
+
+```bash
+python main.py
+```
+
+If running Streamlit manually:
+
+```bash
+streamlit run app.py
+```
+
+---
+
+## How It Works
+
+1. User submits a city complaint
+2. NLP pipeline preprocesses the text
+3. AI model classifies complaint category
+4. AI predicts urgency level
+5. System calculates priority score
+6. Dashboard updates analytics
+7. System recommends responsible city department
+
+---
+
+## Project Structure
+
+```text
+urban-pulse-ai/
+│
+├── data/
+├── models/
+├── app.py
+├── main.py
+├── requirements.txt
+├── README.md
+```
+
+---
+
+## AI Models Used
+
+* Complaint Classification Model
+* Urgency Prediction Model
+* NLP Preprocessing Pipeline
+
+---
+
+Built for **SmartScape Hackathon 2026**
